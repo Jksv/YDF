@@ -1,0 +1,42 @@
+html{
+  background: #3A3A3A;
+}
+
+h1 {
+    Color: #E0FF00;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: auto;
+    padding-top: 0.4em;
+    font-family: Verdana;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #CDECFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+td {
+  padding: 30px;
+  text-align: center;
+  background-color: #E3E3E3;
+  font-family:sans-serif;
+  font-size: 15px;
+}
+
+.search {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  }
