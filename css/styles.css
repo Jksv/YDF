@@ -13,24 +13,57 @@ h1 {
     font-family: Verdana;
 }
 
-
 table, th, td {
   border: 1px solid black;
-  border-collapse: collapse;
+  border-color: #3A3A3A
+}
+
+table {
+  padding-bottom:10px;
+  width: 100%
 }
 
 th{
+  padding: 5px;
   background-color: #CDECFF;
   font-family: sans-serif;
   text-align: center;
+  font-weight: bold;
 }
 
 td {
-  padding: 30px;
+  padding: 25px;
   text-align: center;
   background-color: #E3E3E3;
   font-family:sans-serif;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 33%
+}
+
+table.Hometable {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table.Holidays {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.price td {
+  padding: 5px;
+  background-color: #E3E3E3;
+  font-family: fantasy;
+  font-size: 18px;
+  font-weight: bold;
+  width:33%
+}
+
+.pic td{
+  padding: 5px;
 }
 
 .search {
@@ -39,4 +72,9 @@ td {
   text-align: center;
   font-weight: bold;
   font-family: sans-serif;
+  }
+
+  .pic {
+      width: 100%;
+      height: 100px;
   }
